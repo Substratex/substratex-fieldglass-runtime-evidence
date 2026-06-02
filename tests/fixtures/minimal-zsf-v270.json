@@ -1,0 +1,16 @@
+{
+  "final": {
+    "public_release_provenance_v270": {
+      "release_id": "V270_PUBLIC_RELEASE_PROVENANCE_LICENSE_LOCK",
+      "framework": "Recursive Science\u00ae",
+      "instrument": "Fieldglass\u00ae",
+      "origin": "Arjay Asadi",
+      "license": "SubstrateX Public Research and Accountability License v1.0",
+      "citation": "Asadi, Arjay. Recursive Science\u00ae \u2192 SubstrateX\u00ae \u2192 Fieldglass\u00ae Runtime Evidence Observatory \u2192 EvidenceCommons\u00ae.",
+      "lineage": "Recursive Science\u00ae \u2192 SubstrateX\u00ae \u2192 Fieldglass\u00ae \u2192 RuntimeEvidence.com \u2192 EvidenceCommons\u00ae",
+      "claim_boundary": [
+        "observable_runtime_evidence_only"
+      ]
+    }
+  }
+}

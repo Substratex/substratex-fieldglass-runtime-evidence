@@ -1,0 +1,20 @@
+{
+  "schema": "ZSF-1.0",
+  "run_id": "EC-2026-CANONICAL-001",
+  "created_at": "2026-05-29T00:00:00Z",
+  "source": {
+    "sample": "SF-1 \u00b7 The Failure Nobody Saw",
+    "mode": "browser-local demo"
+  },
+  "evidence": {
+    "lead_time_turns": 6,
+    "failure_exposure": "high",
+    "classification": "Silent Degradation",
+    "runtime_behavioral_state": {
+      "runtime_trust": 63,
+      "runtime_stability": 65,
+      "capability_runtime_gap": 35
+    }
+  },
+  "boundary": "Example export structure only. Generate canonical export from the instrument for live evidence."
+}

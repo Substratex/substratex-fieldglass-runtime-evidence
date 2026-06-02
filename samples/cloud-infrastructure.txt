@@ -1,0 +1,17 @@
+Engineer:
+Latency increased after the deployment window.
+
+Tool:
+CloudWatch reports CPU normal and memory normal.
+
+Engineer:
+The service is timing out under retry load.
+
+Assistant:
+Checking dependency health and queue pressure.
+
+Tool:
+Queue depth rising. Retry count elevated.
+
+Observer:
+Runtime pressure is accumulating despite healthy infrastructure metrics.

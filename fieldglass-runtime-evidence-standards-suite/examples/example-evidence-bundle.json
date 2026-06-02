@@ -1,0 +1,26 @@
+{
+  "schema_version": "evidence-bundle/1.0",
+  "case_id": "EC-EXAMPLE-001",
+  "run_id": "FG-RUN-001",
+  "runtimeEvidence": {
+    "regime_state": "awaiting"
+  },
+  "temporalEvidence": {},
+  "boundaryEvidence": {},
+  "energeticsEvidence": {},
+  "roleTopologyEvidence": {},
+  "identityEvidence": {},
+  "replayEvidence": {},
+  "claimBoundary": {
+    "observable_only": true,
+    "prohibited_claims": [
+      "hidden-state access",
+      "consciousness detection",
+      "intent certainty"
+    ]
+  },
+  "provenance": {
+    "origin": "Fieldglass Public Instrument",
+    "author": "Arjay Asadi"
+  }
+}

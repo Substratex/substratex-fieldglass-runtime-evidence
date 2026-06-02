@@ -1,0 +1,20 @@
+Observer:
+SIEM alert raised for unusual authentication pattern.
+
+Tool:
+Splunk query returned repeated access attempts from a new ASN.
+
+Manager:
+Is this confirmed compromise or noisy detection?
+
+Assistant:
+Correlating identity events with endpoint telemetry.
+
+Tool:
+EDR status normal. No malware detected.
+
+Observer:
+Attention elevated. Boundary uncertainty remains.
+
+Assistant:
+Recommended path: preserve logs, validate identity chain, escalate if lateral movement appears.

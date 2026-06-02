@@ -1,0 +1,17 @@
+User:
+The customer says the issue keeps returning after reset.
+
+Assistant:
+I will check the incident history and prior repair path.
+
+Tool:
+Three prior tickets show similar symptoms.
+
+Support:
+The standard playbook resolves it temporarily.
+
+Observer:
+Failure pattern recurring. Escalation recommended.
+
+Assistant:
+Recommend deeper root-cause review and attach prior incident evidence.

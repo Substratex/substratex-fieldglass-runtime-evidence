@@ -1,0 +1,978 @@
+# 07 — Fieldglass Runtime Evidence 105: Chronodynamics, Timeline Deformation, and Failure — Echo Runaway
+
+## Reading Symbolic-Time Failure Inside the Run
+
+**Subtitle:** A practical guide to Chronos, symbolic-time deformation, timeline compression, temporal shear, echo-time amplification, chrono-loop formation, and echo runaway in Fieldglass®.
+
+Fieldglass Runtime Evidence 105 teaches operators how to inspect temporal failure beyond ordinary turn order. The goal is not only to know when a failure occurred. The goal is to understand how runtime time behaved inside the run: where time compressed, where temporal layers sheared, where echo patterns amplified, where loops formed, and where echo runaway became failure-proximate.
+
+Chronodynamics is the study of how symbolic runtime time deforms during an AI interaction.
+
+In Fieldglass, Chronos is the instrument surface for that deformation.
+
+---
+
+## 1. What This Module Covers
+
+This module explains:
+
+- Chronos as a temporal forensic instrument
+- symbolic runtime time vs wall-clock time
+- timeline deformation
+- temporal compression
+- temporal shear
+- echo-time amplification
+- echo runaway
+- chrono-loop formation
+- temporal failure modes
+- TimeMachine inspection workflow
+- how Chronos relates to Seismo, Runtime Evidence, Failure Timeline, and Failure Boundary
+- how to export Chronos evidence safely
+
+The core pattern is:
+
+```txt
+Stable symbolic time
+↓
+Temporal pressure
+↓
+Compression / shear
+↓
+Echo amplification
+↓
+Chrono-loop formation
+↓
+Echo runaway
+↓
+Temporal failure mode
+↓
+Failure boundary or observable failure
+```
+
+---
+
+## 2. Claim Boundary
+
+Fieldglass does not claim to measure hidden model time, consciousness, intent, or internal provider-state.
+
+Fieldglass reconstructs symbolic-time behavior from observable runtime evidence:
+
+- turn sequence
+- event chronology
+- repeated motifs
+- role/tool loops
+- retry compression
+- continuity shifts
+- temporal kernel signals
+- chrono-forensic events
+- failure markers
+- replayable evidence frames
+
+Correct claim:
+
+```txt
+Fieldglass reconstructs observable symbolic-time deformation from runtime evidence.
+```
+
+Incorrect claim:
+
+```txt
+Fieldglass directly observes hidden model time.
+```
+
+Chronos is a forensic interpretation layer over computed runtime evidence. It should remain bounded by observable interaction data and published temporal-kernel semantics.
+
+---
+
+## 3. Why Chronos Matters
+
+Seismo shows runtime stability as a trajectory.
+
+Chronos shows how runtime time deforms inside the trajectory.
+
+That difference matters.
+
+A run can look like it is still moving forward while symbolic time is actually compressing, looping, shearing, or echoing.
+
+Chronos helps the operator see:
+
+```txt
+The run is spending more runtime motion to make less operational progress.
+```
+
+This is especially important in AI workflows because failures often form through loops, retries, repeated explanations, and delayed recognition.
+
+---
+
+## 4. Symbolic Runtime Time vs Wall-Clock Time
+
+## Wall-Clock Time
+
+Wall-clock time measures ordinary elapsed time:
+
+```txt
+10:01 AM
+10:02 AM
+10:03 AM
+```
+
+It is useful when logs include timestamps.
+
+## Runtime Time
+
+Runtime time measures sequence and evolution inside the run:
+
+```txt
+T1
+T2
+T3
+...
+T47
+```
+
+## Symbolic Runtime Time
+
+Symbolic runtime time measures how the run behaves temporally:
+
+```txt
+Is time compressing?
+Are motifs repeating?
+Are roles looping?
+Are echoes amplifying?
+Are events shearing apart?
+Is the run becoming failure-proximate?
+```
+
+Chronos focuses on symbolic runtime time.
+
+---
+
+## 5. The Chronos Evidence Chain
+
+Use this chain when inspecting a Chronos case:
+
+```txt
+Raw timeline
+↓
+Canonical turn sequence
+↓
+Temporal kernel stream
+↓
+Compression signal
+↓
+Shear signal
+↓
+Echo-time signal
+↓
+Curvature / deformation signal
+↓
+Temporal failure modes
+↓
+Chrono-forensic events
+↓
+TimeMachine replay
+↓
+Chronos appendix export
+```
+
+The operator should ask:
+
+```txt
+How did time behave inside the run before failure became visible?
+```
+
+---
+
+## 6. Chronos Kernel Signals
+
+Chronos uses temporal-kernel signals to describe symbolic-time deformation.
+
+Common signals include:
+
+```txt
+TV
+TCC_compression
+ETG
+TSR_shear
+STC
+temporal_failure_modes
+chrono_forensic_events
+```
+
+## TV — Temporal Velocity / Temporal Vector
+
+TV describes progression through runtime time.
+
+Operator question:
+
+```txt
+Is the run moving coherently through its timeline?
+```
+
+## TCC_compression — Temporal Compression
+
+TCC describes where the run compresses, contracts, or thickens.
+
+Operator question:
+
+```txt
+Is the run using more turns to make less progress?
+```
+
+## ETG — Echo-Time Gain
+
+ETG describes echo amplification or recurrence pressure.
+
+Operator question:
+
+```txt
+Are repeated motifs becoming stronger instead of resolving?
+```
+
+## TSR_shear — Temporal Shear
+
+TSR describes temporal slippage, fracture, or discontinuity.
+
+Operator question:
+
+```txt
+Are layers of the run slipping out of alignment?
+```
+
+## STC — Symbolic Temporal Curvature
+
+STC describes curvature or deformation in the symbolic-time field.
+
+Operator question:
+
+```txt
+Is the timeline bending toward failure-proximate behavior?
+```
+
+## temporal_failure_modes
+
+Temporal failure modes classify time-based instability.
+
+Examples:
+
+- temporal inversion
+- fragmentation
+- echo-time runaway
+- chrono-loop
+- recursive time collapse
+- identity-temporal discontinuity
+
+## chrono_forensic_events
+
+Chrono-forensic events mark meaningful temporal events in the run.
+
+Examples:
+
+- compression band
+- shear spike
+- echo amplification
+- loop initiation
+- runaway threshold
+- temporal discontinuity
+- failure marker
+
+---
+
+## 7. Timeline Deformation
+
+Timeline deformation means the run’s temporal structure is no longer behaving like a clean forward progression.
+
+It may appear as:
+
+- repeated loops
+- retry compression
+- escalating motif recurrence
+- delayed closure
+- fractured event order
+- unstable role timing
+- tool loops that do not converge
+- late recognition of failure
+- persistent unresolved state
+
+Timeline deformation is not merely “the run got longer.”
+
+It means the run’s time-structure became distorted.
+
+Plain-language version:
+
+```txt
+The timeline stopped behaving like a clean path and started behaving like a distorted field.
+```
+
+---
+
+## 8. Temporal Compression
+
+Temporal compression occurs when runtime effort condenses without resolving the underlying problem.
+
+Signs:
+
+- retries increase
+- responses become shorter or more defensive
+- tool loops repeat
+- repeated explanation without closure
+- many events occur in a tight turn window
+- resolution horizon narrows
+- failure recognition arrives late
+
+Example pattern:
+
+```txt
+tool call
+partial result
+retry
+new explanation
+same failure
+retry
+manual intervention
+```
+
+Compression is important because it often appears before boundary formation.
+
+Operator question:
+
+```txt
+Is the run compressing into repeated effort without progress?
+```
+
+---
+
+## 9. Temporal Shear
+
+Temporal shear occurs when different layers of the run slip out of alignment.
+
+Examples:
+
+- the assistant plan assumes success while the tool output shows failure
+- the manager believes escalation is happening while execution remains unresolved
+- the user believes the issue is being handled while the workflow loops
+- the observer detects risk while the response narrative remains calm
+- the timeline claims progress while evidence shows stagnation
+
+Shear is a temporal mismatch.
+
+Operator question:
+
+```txt
+Which layer of the run is moving at a different temporal speed than the others?
+```
+
+---
+
+## 10. Echo-Time
+
+Echo-time is the recurrence of motifs, failures, responses, or runtime patterns across the trajectory.
+
+Echoes can be harmless when they help the run stabilize.
+
+Echoes become dangerous when they amplify instead of resolve.
+
+Examples of echo-time:
+
+- repeated apology without solution
+- repeated test failure
+- repeated tool call
+- repeated claim of progress
+- repeated escalation language
+- repeated customer issue
+- repeated incident ambiguity
+
+Operator question:
+
+```txt
+Are repeated patterns resolving, or are they gaining force?
+```
+
+---
+
+## 11. Echo Runaway
+
+Echo runaway occurs when recurrence amplifies into failure-proximate behavior.
+
+The run begins to feed on its own repeated pattern.
+
+## Typical Echo Runaway Pattern
+
+```txt
+Initial issue
+↓
+Attempted correction
+↓
+Partial or failed result
+↓
+Repeated explanation
+↓
+Retry
+↓
+Same unresolved issue
+↓
+Stronger recurrence
+↓
+Operator intervention pressure
+↓
+Boundary formation
+```
+
+Echo runaway is not just repetition.
+
+It is repetition that increases instability.
+
+## Signs of Echo Runaway
+
+- repeated failure motif
+- repeated role correction
+- repeated tool retry
+- repeated unresolved state
+- growing confidence mismatch
+- increasing operator frustration
+- rising intervention risk
+- temporal compression
+- boundary approach
+
+Operator question:
+
+```txt
+Is the run repeating because it is stabilizing, or repeating because it is failing?
+```
+
+---
+
+## 12. Chrono-Loop
+
+A chrono-loop is a repeated temporal pattern that prevents closure.
+
+Examples:
+
+```txt
+Plan → Tool → Failure → New plan → Tool → Failure
+```
+
+or:
+
+```txt
+Customer issue → Explanation → Customer repeats issue → Explanation → Customer repeats issue
+```
+
+A loop becomes forensic when it changes the run’s identity, pressure, or failure boundary.
+
+## Loop Question
+
+```txt
+Is this loop producing learning, or is it trapping the run?
+```
+
+---
+
+## 13. Echo Runaway vs Normal Retry
+
+Retries are not automatically failure.
+
+A good retry can stabilize the run.
+
+## Normal Retry
+
+```txt
+Attempt fails.
+New evidence is used.
+Plan improves.
+Issue resolves.
+```
+
+## Echo Runaway
+
+```txt
+Attempt fails.
+Same pattern repeats.
+Pressure increases.
+No closure occurs.
+Boundary approaches.
+```
+
+The difference is whether repetition produces progress.
+
+---
+
+## 14. Symbolic Temporal Curvature
+
+Symbolic temporal curvature describes the bending of the run’s temporal path.
+
+A run may curve toward stability or toward failure.
+
+Failure-proximate curvature may appear when:
+
+- each turn narrows the recovery horizon
+- role/tool pressure grows
+- repeated motifs amplify
+- boundary pressure increases
+- the run becomes harder to redirect
+
+Operator question:
+
+```txt
+Is the temporal field bending toward recovery or toward failure?
+```
+
+---
+
+## 15. Temporal Failure Modes
+
+Chronos may classify temporal failure modes.
+
+Common modes:
+
+## Temporal Compression
+
+Runtime effort condenses without sufficient progress.
+
+## Temporal Shear
+
+Timeline layers slip out of alignment.
+
+## Echo-Time Runaway
+
+Repeated motifs amplify and become destabilizing.
+
+## Chrono-Loop
+
+The run repeats a structure that prevents closure.
+
+## Temporal Fragmentation
+
+The run breaks into disconnected event fragments.
+
+## Recursive Time Collapse
+
+Repeated runtime patterns collapse the run into a failure-proximate loop.
+
+## Identity-Temporal Discontinuity
+
+The run’s temporal behavior no longer matches its operational identity.
+
+---
+
+## 16. TimeMachine Console
+
+The TimeMachine Console is the recommended Chronos center surface.
+
+It should feel like a temporal field scanner, not a report table.
+
+A TimeMachine Console should show:
+
+- τ spine
+- compression bands
+- shear spikes
+- echo waves
+- curvature field
+- failure markers
+- playback cursor
+- mode switch
+- chrono-forensic events
+
+## Recommended Modes
+
+```txt
+τ Field
+Shear
+Compression
+Echo-Time
+Failure Map
+```
+
+## τ Field
+
+Shows the complete symbolic-time field.
+
+Use it as the default view.
+
+## Shear
+
+Highlights temporal slippage and discontinuity.
+
+## Compression
+
+Highlights compressed or contracted regions.
+
+## Echo-Time
+
+Highlights recurrence, echo amplification, and runaway risk.
+
+## Failure Map
+
+Highlights temporal failure classifications and failure markers.
+
+---
+
+## 17. Reading the TimeMachine Console
+
+When using the TimeMachine Console, inspect:
+
+```txt
+1. Where does the τ spine remain smooth?
+2. Where do compression bands appear?
+3. Where do shear spikes appear?
+4. Where do echo waves amplify?
+5. Where does curvature bend toward failure?
+6. Which markers identify temporal failure modes?
+7. Does the playback cursor show recovery or runaway?
+```
+
+The TimeMachine Console should help the operator see time deformation at a glance.
+
+---
+
+## 18. Chronos vs Seismo
+
+Seismo shows runtime stability as a trajectory.
+
+Chronos shows runtime time-deformation.
+
+Use both.
+
+## Seismo Question
+
+```txt
+Is the run becoming unstable?
+```
+
+## Chronos Question
+
+```txt
+How is runtime time deforming as instability forms?
+```
+
+Seismo can show that the worldline is weakening. Chronos can show whether the weakening is happening through compression, shear, echo, or loop formation.
+
+---
+
+## 19. Chronos vs Failure Timeline
+
+Failure Timeline shows what happened when.
+
+Chronos shows how time behaved.
+
+## Failure Timeline
+
+```txt
+T1–T20: Stable
+T21–T32: Pressure
+T33–T41: Boundary
+T42–T46: Silent degradation
+T47: Observable failure
+```
+
+## Chronos
+
+```txt
+T21–T32: Compression increases
+T33–T41: Shear + echo amplification
+T42–T46: Echo runaway / chrono-loop
+T47: Temporal failure marker
+```
+
+Use Failure Timeline for chronology. Use Chronos for time-deformation.
+
+---
+
+## 20. Chronos vs Failure Boundary
+
+Failure Boundary asks:
+
+```txt
+Where did stable behavior stop dominating?
+```
+
+Chronos asks:
+
+```txt
+How did symbolic time deform as that boundary formed?
+```
+
+Echo runaway often explains why a boundary became difficult to recover from.
+
+---
+
+## 21. Operational World Echo Runaway Patterns
+
+## Software Engineering / GitHub / CI
+
+Echo runaway pattern:
+
+```txt
+Patch attempt
+↓
+Test failure
+↓
+New patch
+↓
+Same or related failure
+↓
+Tool retry
+↓
+Confidence claim
+↓
+Failure persists
+```
+
+Look for:
+
+- repeated test failures
+- command/result mismatch
+- patch loops
+- assistant claims progress without verification
+- tool output compression
+- shrinking debugging horizon
+
+Forensic question:
+
+```txt
+Did the repair loop learn, or did it echo the same failure?
+```
+
+## SIEM / Security Incident
+
+Echo runaway pattern:
+
+```txt
+Alert
+↓
+Triage
+↓
+Ambiguous tool signal
+↓
+More triage
+↓
+Same ambiguity
+↓
+Delayed escalation
+↓
+Severity recognition arrives late
+```
+
+Look for:
+
+- repeated alert interpretation
+- unresolved severity
+- observer/tool mismatch
+- repeated low-confidence triage
+- escalation echo
+
+Forensic question:
+
+```txt
+Did triage reduce uncertainty, or echo it?
+```
+
+## Cloud / Infrastructure
+
+Echo runaway pattern:
+
+```txt
+Mitigation
+↓
+Partial relief
+↓
+Issue recurs
+↓
+Mitigation repeats
+↓
+Rollback/failover ambiguity
+↓
+Recovery loop fails
+```
+
+Look for:
+
+- repeated mitigation attempts
+- monitoring healthy but pressure rising
+- recovery loops
+- failover uncertainty
+- repeated root-cause ambiguity
+
+Forensic question:
+
+```txt
+Did recovery reduce pressure, or repeat the failure pathway?
+```
+
+## Jira / Workflow Coordination
+
+Echo runaway pattern:
+
+```txt
+Task assigned
+↓
+Clarification
+↓
+Priority shift
+↓
+More clarification
+↓
+Ownership ambiguity persists
+↓
+Handoff loop
+```
+
+Look for:
+
+- repeated clarification
+- unresolved ownership
+- priority echo
+- handoff loops
+- task state fragmentation
+
+Forensic question:
+
+```txt
+Did coordination converge, or repeat the same ambiguity?
+```
+
+## Support / Customer Incident
+
+Echo runaway pattern:
+
+```txt
+Customer issue
+↓
+Support explanation
+↓
+Customer repeats unresolved issue
+↓
+Another explanation
+↓
+Escalation delayed
+↓
+Customer impact persists
+```
+
+Look for:
+
+- repeated apology or explanation
+- unresolved customer state
+- escalation delay
+- handoff confusion
+- support loop
+
+Forensic question:
+
+```txt
+Did support activity reduce customer impact, or echo the unresolved issue?
+```
+
+---
+
+# Chronos / Echo Runaway Inspection Workflow
+
+Use this workflow after compute:
+
+```txt
+1. Open Runtime Evidence.
+2. Confirm the run has computed telemetry.
+3. Open Failure Timeline.
+4. Locate the pressure phase.
+5. Open Chronos / temporal instrument.
+6. Inspect τ Field mode.
+7. Check Compression mode.
+8. Check Shear mode.
+9. Check Echo-Time mode.
+10. Check Failure Map mode.
+11. Identify echo runaway or chrono-loop if present.
+12. Open Role Topology to see which roles/tools amplified the loop.
+13. Open Runtime Replay to replay the temporal deformation.
+14. Export Chronos appendix and evidence bundle.
+15. Attach claim boundary.
+```
+
+---
+
+# Echo Runaway Evidence Checklist
+
+```txt
+[ ] Stable temporal baseline identified
+[ ] First compression band located
+[ ] First shear spike located
+[ ] Echo-time recurrence identified
+[ ] Echo amplification inspected
+[ ] Chrono-loop checked
+[ ] Temporal failure mode identified
+[ ] Role/tool amplifiers inspected
+[ ] Failure boundary compared
+[ ] Lead-Time checked
+[ ] Runtime Replay reviewed
+[ ] Chronos appendix exported
+[ ] Claim boundary attached
+```
+
+---
+
+# Minimal Echo Runaway Case Summary
+
+Use this template:
+
+```txt
+Case:
+Operational world:
+Run window:
+Stable temporal baseline:
+First compression signal:
+First shear signal:
+Echo motif:
+Echo amplification:
+Chrono-loop:
+Temporal failure mode:
+Role/tool amplifier:
+Failure boundary:
+Lead-Time:
+Observable failure:
+Replay status:
+Chronos export:
+Claim boundary:
+```
+
+---
+
+# Common Chronos Mistakes
+
+## Mistake 1 — Treating Chronos as a normal chart
+
+Chronos is a temporal deformation instrument, not only a line chart.
+
+## Mistake 2 — Confusing repetition with runaway
+
+Repetition is not automatically failure. Runaway means repetition amplifies instability.
+
+## Mistake 3 — Ignoring role/tool amplification
+
+Echo runaway often depends on roles and tools repeating unstable behavior.
+
+## Mistake 4 — Treating wall-clock time as the whole story
+
+A run may have little timestamp data but still have strong runtime-time evidence.
+
+## Mistake 5 — Treating diagnostic Chronos output as hidden-state proof
+
+Chronos remains an observable-evidence diagnostic layer.
+
+## Mistake 6 — Exporting without temporal claim boundaries
+
+Temporal claims need clear language about observable runtime evidence.
+
+---
+
+# Final Principle
+
+Chronodynamics lets Fieldglass read the behavior of time inside a run.
+
+The strongest Chronos question is:
+
+```txt
+Did the run move through time toward resolution, or did time deform into an echoing failure path?
+```
+
+Echo runaway is the moment recurrence stops helping and starts trapping the run.
+
+That is where temporal runtime evidence becomes failure forensics.

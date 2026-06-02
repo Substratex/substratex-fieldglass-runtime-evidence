@@ -1,0 +1,10 @@
+{
+  "name": "substratex-fieldglass-runtime-evidence",
+  "version": "270.0.0",
+  "private": false,
+  "description": "Fieldglass\u00ae Runtime Evidence Observatory \u2014 SubstrateX\u00ae Runtime Evidence Infrastructure",
+  "scripts": {
+    "test": "python3 tests/static/check_release_integrity.py && python3 tests/static/check_no_runtime_forensics_terms.py && python3 tests/static/check_schemas.py"
+  },
+  "license": "SEE LICENSE"
+}

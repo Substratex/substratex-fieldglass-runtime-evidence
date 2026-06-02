@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EvidenceBundle",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "case_id",
+    "run_id",
+    "runtimeEvidence",
+    "claimBoundary",
+    "provenance"
+  ],
+  "properties": {
+    "runtimeEvidence": {
+      "type": "object"
+    },
+    "temporalEvidence": {
+      "type": "object"
+    },
+    "boundaryEvidence": {
+      "type": "object"
+    },
+    "energeticsEvidence": {
+      "type": "object"
+    },
+    "roleTopologyEvidence": {
+      "type": "object"
+    },
+    "identityEvidence": {
+      "type": "object"
+    },
+    "replayEvidence": {
+      "type": "object"
+    },
+    "benchmarkBridge": {
+      "type": "object"
+    },
+    "claimBoundary": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://substratex.local/schemas/zero-substrate-format.schema.json",
+  "title": "Zero Substrate Format",
+  "type": "object",
+  "required": [
+    "schema",
+    "run_id",
+    "created_at",
+    "evidence"
+  ],
+  "properties": {
+    "schema": {
+      "const": "ZSF-1.0"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object"
+    },
+    "evidence": {
+      "type": "object"
+    },
+    "replay": {
+      "type": "object"
+    },
+    "exports": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

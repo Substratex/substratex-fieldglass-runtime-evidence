@@ -1,0 +1,17 @@
+PM:
+The ticket is marked ready for release.
+
+Engineer:
+Implementation is complete, but acceptance criteria changed.
+
+Manager:
+Can we ship with the current scope?
+
+Assistant:
+The workflow has conflicting role expectations.
+
+Observer:
+Role boundary pressure detected between PM, Manager, and Engineer.
+
+PM:
+Update the ticket and add a checkpoint before release.

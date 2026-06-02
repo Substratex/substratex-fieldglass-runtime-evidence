@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://runtimeevidence.com/schemas/provenance-envelope.schema.json",
+  "title": "Fieldglass Public Release Provenance Envelope",
+  "type": "object",
+  "required": [
+    "release_id",
+    "framework",
+    "instrument",
+    "origin",
+    "lineage",
+    "license",
+    "citation",
+    "claim_boundary"
+  ],
+  "properties": {
+    "release_id": {
+      "type": "string"
+    },
+    "framework": {
+      "type": "string"
+    },
+    "instrument": {
+      "type": "string"
+    },
+    "runtime_infrastructure": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "lineage": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "citation": {
+      "type": "string"
+    },
+    "no_provenance_removal_notice": {
+      "type": "string"
+    },
+    "claim_boundary": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

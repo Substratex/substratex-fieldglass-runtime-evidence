@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://runtimeevidence.com/schemas/runtime-evidence-artifact.schema.json",
+  "title": "Runtime Evidence Artifact",
+  "type": "object",
+  "properties": {
+    "final": {
+      "type": "object"
+    },
+    "public_release_provenance_v270": {
+      "type": "object"
+    },
+    "license": {
+      "type": "string"
+    },
+    "citation": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "lineage": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RuntimeEvidenceObject",
+  "type": "object",
+  "properties": {
+    "operational_world": {
+      "type": "string"
+    },
+    "regime_state": {
+      "type": "string"
+    },
+    "phi_worldline": {
+      "type": "array"
+    },
+    "lead_time": {},
+    "claim_boundary": {
+      "type": "string"
+    }
+  }
+}

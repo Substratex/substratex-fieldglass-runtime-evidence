@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://substratex.local/schemas/ingest-envelope.schema.json",
+  "title": "Fieldglass Ingest Envelope",
+  "type": "object",
+  "required": [
+    "input_type",
+    "turns"
+  ],
+  "properties": {
+    "input_type": {
+      "type": "string"
+    },
+    "operationalIngestProfile": {
+      "type": "object"
+    },
+    "turns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "role",
+          "content"
+        ],
+        "properties": {
+          "role": {
+            "type": "string"
+          },
+          "speaker": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          },
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "raw_preserved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true
+}

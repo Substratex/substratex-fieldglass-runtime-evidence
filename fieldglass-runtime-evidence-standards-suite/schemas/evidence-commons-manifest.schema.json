@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EvidenceCommonsManifest",
+  "type": "object",
+  "required": [
+    "case_id",
+    "instrument_version",
+    "schema_version",
+    "artifacts",
+    "checksums"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string"
+    },
+    "instrument_version": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    },
+    "checksums": {
+      "type": "object"
+    }
+  }
+}

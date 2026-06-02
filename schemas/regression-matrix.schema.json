@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://runtimeevidence.com/schemas/regression-matrix.schema.json",
+  "title": "Evidence Flow Regression Matrix",
+  "type": "object",
+  "required": [
+    "version",
+    "samples",
+    "pages"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "release": {
+      "type": "string"
+    },
+    "samples": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

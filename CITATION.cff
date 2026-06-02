@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "Fieldglass® Runtime Evidence Observatory"
+message: "If you use this public instrument or generated evidence artifacts, cite this release."
+type: software
+authors:
+  - family-names: "Asadi"
+    given-names: "Arjay"
+version: "V270_PUBLIC_RELEASE_PROVENANCE_LICENSE_LOCK"
+date-released: "2026-05-30"
+license: "SubstrateX-Public-Research-Accountability-1.0"
+keywords:
+  - Recursive Science
+  - SubstrateX
+  - Fieldglass
+  - Runtime Evidence
+  - EvidenceCommons
+  - AI runtime telemetry
+  - cognitive cartography
+  - runtime evidence observatory
+  - AI safety
+  - AI governance
+  - forensic evidence
+abstract: "Fieldglass® Runtime Evidence Observatory is a browser-local public runtime evidence instrument for AI interaction logs, released as part of SubstrateX® Runtime Evidence Infrastructure and grounded in Recursive Science®."

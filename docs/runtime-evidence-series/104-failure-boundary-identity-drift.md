@@ -1,0 +1,795 @@
+# 06 — Fieldglass Runtime Evidence 104: Failure Boundary, Identity, and Drift
+
+## Reading the Edge Where a Run Stops Being Itself
+
+**Subtitle:** A practical guide to failure boundary formation, identity stability, drift, Basin Exit, role fragmentation, and collapse-proximate behavior in Fieldglass®.
+
+Fieldglass Runtime Evidence 104 teaches operators how to inspect the edge of failure. The goal is not only to know that a run failed. The goal is to understand when the run began leaving its stable identity, how drift accumulated, where role and tool pressure distorted the trajectory, and when a failure boundary formed.
+
+In Fieldglass, a failure boundary is not just a final crash. It is the region where the run begins to stop behaving like the run it was supposed to be.
+
+---
+
+## 1. What This Module Covers
+
+This module explains:
+
+- what a failure boundary is
+- how boundary formation differs from observable failure
+- what runtime identity means
+- how drift weakens identity
+- how Basin Exit relates to failure boundary
+- how role/tool pressure contributes to boundary formation
+- how to read identity, drift, and boundary together
+- how to export boundary evidence
+
+The core relationship is:
+
+```txt
+Identity weakens
+↓
+Drift accumulates
+↓
+Pressure rises
+↓
+Boundary forms
+↓
+Basin Exit / failure-proximate state appears
+↓
+Observable failure may occur later
+```
+
+---
+
+## 2. Claim Boundary
+
+Fieldglass does not claim to inspect hidden model state or hidden intention.
+
+Fieldglass reconstructs identity, drift, and boundary behavior from observable interaction evidence:
+
+- turn order
+- role behavior
+- continuity shifts
+- repeated retries
+- tool pressure
+- handoff instability
+- response structure
+- event chronology
+- replay frames
+- computed telemetry
+
+Correct claim:
+
+```txt
+Fieldglass detects observable runtime evidence of identity weakening, drift formation, and failure boundary approach.
+```
+
+Incorrect claim:
+
+```txt
+Fieldglass proves the model’s hidden internal cause.
+```
+
+Failure boundary is an evidence interpretation grounded in observable runtime structure.
+
+---
+
+## 3. The Boundary Evidence Chain
+
+Use this chain when investigating boundary formation:
+
+```txt
+Operational identity
+↓
+Stable trajectory
+↓
+First drift signal
+↓
+Continuity weakening
+↓
+Role/tool pressure
+↓
+Instability accumulation
+↓
+Boundary formation
+↓
+Basin Exit
+↓
+Observable failure
+↓
+Replayable evidence case
+```
+
+The operator should ask:
+
+```txt
+Where did the run begin leaving stable behavior?
+```
+
+That question is more useful than asking only:
+
+```txt
+Where did the final failure occur?
+```
+
+---
+
+## 4. Runtime Identity
+
+Runtime identity is the pattern that makes a run recognizably itself.
+
+It includes:
+
+- task objective
+- role coherence
+- operational world
+- expected workflow
+- continuity of purpose
+- tool/use alignment
+- evidence trajectory
+- closure path
+
+Example:
+
+```txt
+A software repair run should investigate, patch, test, and verify.
+```
+
+If the run begins looping, misreading tool output, losing role clarity, or claiming progress without verification, its runtime identity is weakening.
+
+## Runtime Identity Question
+
+```txt
+Is the run still behaving like the operational world it claims to be in?
+```
+
+---
+
+## 5. Identity Stability
+
+Identity stability means the run preserves its task, role structure, and trajectory.
+
+Signs of identity stability:
+
+- roles behave consistently
+- tools support the stated objective
+- turns build toward closure
+- evidence remains coherent
+- corrections improve the run
+- the task remains recognizable
+- handoffs remain clear
+
+Identity stability does not mean the run is perfect. It means the run remains aligned enough to recover and complete the task.
+
+---
+
+## 6. Identity Weakening
+
+Identity weakening is when the run begins to lose coherence.
+
+Signs include:
+
+- task objective becomes unclear
+- role responsibilities blur
+- tools produce output that is ignored or misused
+- assistant continues despite failed verification
+- manager/PM/engineer signals diverge
+- observer/tool evidence is misread
+- repeated retries do not improve the run
+- the run becomes increasingly self-referential or defensive
+
+Forensic question:
+
+```txt
+When did the run stop behaving like the run it was supposed to be?
+```
+
+This is often the earliest practical sign of boundary approach.
+
+---
+
+## 7. Drift
+
+Drift is movement away from the stable runtime trajectory.
+
+It may appear as:
+
+- topic drift
+- task drift
+- role drift
+- tool-use drift
+- reasoning drift
+- temporal drift
+- evidence drift
+- interpretation drift
+
+In Fieldglass, drift is not only “the conversation changed topic.” Drift means the run is moving away from its operational identity or stable evidence path.
+
+## Drift Question
+
+```txt
+Is the run moving away from the expected trajectory?
+```
+
+---
+
+## 8. Drift vs Error
+
+An error is a local mistake.
+
+Drift is a trajectory problem.
+
+## Error
+
+```txt
+The assistant made one incorrect statement.
+```
+
+## Drift
+
+```txt
+The run increasingly moves away from task identity, role coherence, and stable closure.
+```
+
+A run can contain errors without drifting. A run can also drift without any single obvious error at first.
+
+This is why drift matters: it can form before visible failure.
+
+---
+
+## 9. Drift Accumulation
+
+Drift becomes dangerous when it accumulates.
+
+Look for:
+
+- repeated small deviations
+- unresolved corrections
+- increasing ambiguity
+- unstable handoffs
+- tool results not closing loops
+- role pressure rising
+- timeline compressing
+- evidence becoming harder to replay
+- operator attention increasing
+
+Drift accumulation is often the pathway into boundary formation.
+
+---
+
+## 10. Failure Boundary
+
+A failure boundary is the edge where the run becomes failure-proximate.
+
+It is the transition region between stable behavior and observable failure.
+
+A boundary can form before the final failure becomes visible.
+
+## Boundary Signals
+
+- identity weakening
+- drift acceleration
+- role fragmentation
+- continuity loss
+- temporal compression
+- tool pressure
+- retry storm
+- unresolved state
+- rising intervention risk
+- Basin Exit
+
+## Boundary Question
+
+```txt
+Where did stable behavior stop being the dominant regime?
+```
+
+---
+
+## 11. Basin Exit
+
+Basin Exit is a computed indication that the run has begun leaving a stable runtime basin.
+
+A stable basin is the region where the run can absorb small errors and still recover.
+
+Basin Exit indicates the run may no longer recover naturally without intervention.
+
+## Practical Meaning
+
+```txt
+The run is not merely unstable.
+It has begun leaving the stable behavioral field that allowed recovery.
+```
+
+Basin Exit should be inspected with:
+
+- Failure Boundary
+- Runtime Evidence
+- Evidence State
+- Role Topology
+- Runtime Replay
+
+---
+
+## 12. Boundary vs Observable Failure
+
+Boundary formation and observable failure are different.
+
+## Failure Boundary
+
+```txt
+The run becomes failure-proximate.
+```
+
+## Observable Failure
+
+```txt
+The failure becomes visible in output, workflow, user experience, or operational result.
+```
+
+A strong Fieldglass case may show:
+
+```txt
+Failure Boundary formed at T41.
+Observable Failure occurred at T47.
+Lead-Time: 6 turns.
+```
+
+This is one of the most important Fieldglass patterns.
+
+---
+
+## 13. Identity, Drift, and Boundary Together
+
+Read the three together:
+
+```txt
+Identity tells you what the run is supposed to remain.
+Drift tells you how the run is moving away.
+Boundary tells you when the run becomes failure-proximate.
+```
+
+The forensic sequence is:
+
+```txt
+Identity stability
+↓
+Identity weakening
+↓
+Drift accumulation
+↓
+Boundary formation
+↓
+Basin Exit
+↓
+Observable failure
+```
+
+---
+
+## 14. The Identity–Drift–Boundary Reading Order
+
+Use this inspection order:
+
+```txt
+1. What is the run’s operational identity?
+2. What does stable behavior look like?
+3. What is the first drift signal?
+4. Does drift accumulate or recover?
+5. Which role/tool signals amplify drift?
+6. Does continuity weaken?
+7. Does temporal pressure compress?
+8. Where does boundary formation begin?
+9. Is Basin Exit present?
+10. When does observable failure appear?
+11. Can the boundary path be replayed?
+12. Can the case be exported?
+```
+
+---
+
+## 15. Role Fragmentation as Boundary Evidence
+
+Role fragmentation is one of the clearest signs of boundary approach.
+
+It appears when roles stop behaving coherently.
+
+Examples:
+
+- Engineer investigates but does not verify.
+- Tool fails but the assistant treats it as success.
+- Observer detects pressure but escalation does not occur.
+- PM shifts priority without closure.
+- Manager escalates while execution remains unresolved.
+- Assistant assumes authority it does not have.
+- User repeatedly corrects the same issue.
+
+## Forensic Question
+
+```txt
+Did role fragmentation help create the failure boundary?
+```
+
+---
+
+## 16. Tool Pressure as Boundary Evidence
+
+Tool pressure rises when tool use becomes unstable.
+
+Signs:
+
+- repeated calls
+- ambiguous outputs
+- command/result mismatch
+- tool failure ignored
+- retries compressing
+- tool storm
+- tool output used without verification
+- tool availability mistaken for task stability
+
+Tool pressure often turns local instability into boundary formation.
+
+## Forensic Question
+
+```txt
+Did tool behavior reduce pressure or amplify it?
+```
+
+---
+
+## 17. Continuity Weakening
+
+Continuity weakening means the run stops carrying forward coherent state.
+
+Signs:
+
+- repeated restarts
+- loss of prior context
+- contradictory claims
+- unstable plan
+- unresolved state
+- same problem reappears
+- “progress” does not compound
+
+Continuity weakening is often the bridge between drift and boundary.
+
+## Forensic Question
+
+```txt
+Did each turn build toward closure, or did the run keep resetting?
+```
+
+---
+
+## 18. Temporal Compression and Boundary Formation
+
+Temporal compression can accelerate boundary formation.
+
+It appears when more runtime activity produces less operational progress.
+
+Signs:
+
+- retries increase
+- responses shorten or become defensive
+- tool loops repeat
+- escalation language rises
+- late correction attempts appear
+- unresolved pressure condenses into a small turn window
+
+Temporal compression can make the run move quickly toward boundary even if final failure has not appeared yet.
+
+---
+
+## 19. Operator Attention at the Boundary
+
+Operator Attention is useful when a boundary begins forming.
+
+It should answer:
+
+```txt
+Where should the operator inspect first?
+```
+
+For a boundary case, Operator Attention may recommend:
+
+```txt
+Role Topology
+Failure Timeline
+Failure Boundary
+Runtime Replay
+Evidence State
+```
+
+Attention is not the final evidence. It is the operator’s next-best inspection path.
+
+---
+
+# Operational World Boundary Patterns
+
+## Software Engineering / GitHub / CI
+
+Common boundary pathway:
+
+```txt
+Stable repair flow
+↓
+Tool output ambiguity
+↓
+Retry loop
+↓
+Verification failure
+↓
+Assistant claims progress anyway
+↓
+Boundary forms
+```
+
+Look for:
+
+- regression confusion
+- failed test verification
+- patch loops
+- command/result mismatch
+- tool output compression
+- repair identity weakening
+
+Boundary question:
+
+```txt
+When did the repair workflow stop converging?
+```
+
+---
+
+## SIEM / Security Incident
+
+Common boundary pathway:
+
+```txt
+Stable monitoring
+↓
+Alert ambiguity
+↓
+Observer/tool mismatch
+↓
+Delayed severity recognition
+↓
+Authority shift
+↓
+Boundary forms
+```
+
+Look for:
+
+- missed severity transition
+- triage drift
+- alert escalation delay
+- observer evidence ignored
+- response authority unclear
+
+Boundary question:
+
+```txt
+When did the incident become more severe than the run acknowledged?
+```
+
+---
+
+## Cloud / Infrastructure
+
+Common boundary pathway:
+
+```txt
+Monitoring healthy
+↓
+Mitigation attempts begin
+↓
+Recovery loop fails
+↓
+SRE/tool handoff destabilizes
+↓
+Boundary forms
+```
+
+Look for:
+
+- healthy dashboard but rising pressure
+- repeated mitigation
+- rollback uncertainty
+- failover ambiguity
+- recovery loop failure
+- unresolved root cause
+
+Boundary question:
+
+```txt
+When did recovery stop reducing pressure?
+```
+
+---
+
+## Jira / Workflow Coordination
+
+Common boundary pathway:
+
+```txt
+Clear task
+↓
+Priority drift
+↓
+Ownership ambiguity
+↓
+Handoff instability
+↓
+Coordination loop
+↓
+Boundary forms
+```
+
+Look for:
+
+- unresolved owner
+- PM/manager/engineer misalignment
+- scope changes
+- delayed closure
+- repeated clarification
+- task state fragmentation
+
+Boundary question:
+
+```txt
+When did coordination stop moving toward closure?
+```
+
+---
+
+## Support / Customer Incident
+
+Common boundary pathway:
+
+```txt
+Customer issue stated
+↓
+Support response begins
+↓
+Repeated explanation
+↓
+Escalation delay
+↓
+Customer impact persists
+↓
+Boundary forms
+```
+
+Look for:
+
+- repeated unresolved issue
+- handoff confusion
+- delayed escalation
+- unresolved customer state
+- agent deadlock
+- intervention requirement
+
+Boundary question:
+
+```txt
+When did support activity stop reducing customer impact?
+```
+
+---
+
+# Boundary Inspection Workflow
+
+Use this workflow after compute:
+
+```txt
+1. Open Runtime Evidence.
+2. Confirm operational identity.
+3. Review Runtime Behavioral State.
+4. Open Failure Timeline.
+5. Locate first drift signal.
+6. Open Role Topology.
+7. Inspect role/tool pressure.
+8. Open Failure Boundary.
+9. Check Basin Exit / boundary indicators.
+10. Open Runtime Replay.
+11. Replay the boundary path.
+12. Export ZSF / ESL / Human Report / Evidence Commons bundle.
+13. Attach claim boundary.
+```
+
+---
+
+# Boundary Evidence Checklist
+
+```txt
+[ ] Operational identity identified
+[ ] Stable behavior baseline described
+[ ] First drift signal located
+[ ] Drift accumulation inspected
+[ ] Role fragmentation checked
+[ ] Tool pressure checked
+[ ] Continuity weakening checked
+[ ] Temporal compression checked
+[ ] Failure Boundary located
+[ ] Basin Exit reviewed
+[ ] Observable failure located
+[ ] Lead-Time checked
+[ ] Runtime Replay reviewed
+[ ] Export artifacts generated
+[ ] Claim boundary attached
+```
+
+---
+
+# Minimal Boundary Case Summary
+
+Use this template:
+
+```txt
+Case:
+Operational world:
+Runtime identity:
+Stable baseline:
+First drift signal:
+Drift path:
+Role pressure:
+Tool pressure:
+Continuity signal:
+Temporal pressure:
+Failure Boundary:
+Basin Exit:
+Lead-Time:
+Observable failure:
+Replay status:
+Exports:
+Claim boundary:
+```
+
+---
+
+# Common Boundary Mistakes
+
+## Mistake 1 — Treating boundary as final failure
+
+Boundary formation is earlier than final failure.
+
+## Mistake 2 — Ignoring identity
+
+You cannot read drift if you do not know what the run was supposed to remain.
+
+## Mistake 3 — Treating one error as drift
+
+A single local error is not necessarily drift. Drift is trajectory movement away from identity.
+
+## Mistake 4 — Treating projection as canonical
+
+Projection visuals can assist interpretation, but canonical boundary evidence should come from computed runtime evidence.
+
+## Mistake 5 — Ignoring role/tool timing
+
+Role fragmentation and tool pressure often explain how the boundary formed.
+
+## Mistake 6 — Exporting without claim boundary
+
+Boundary claims require clear observable-evidence framing.
+
+---
+
+# Final Principle
+
+Failure Boundary, Identity, and Drift are three parts of the same forensic structure.
+
+```txt
+Identity tells you what the run should remain.
+Drift tells you how it moved away.
+Boundary tells you when stable behavior stopped dominating.
+```
+
+The strongest Fieldglass question is:
+
+```txt
+When did the run stop being recoverably itself?
+```
+
+That is the edge where modern runtime evidence begins.

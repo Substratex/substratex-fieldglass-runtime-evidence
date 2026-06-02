@@ -1,0 +1,48 @@
+name: Release Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  standalone-html-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify required files
+        run: |
+          test -f index.html
+          test -f LICENSE
+          test -f NOTICE
+          test -f README.md
+          test -f SECURITY.md
+          test -f TRADEMARKS.md
+          test -f CITATION.cff
+
+      - name: Verify release artifacts
+        run: |
+          test -f releases/fieldglass-latest.html
+          test -f releases/fieldglass-v201.html
+          test -f releases/fieldglass-v207.html
+
+      - name: Verify docs and schemas
+        run: |
+          test -f docs/quickstart.md
+          test -f docs/claim-boundaries.md
+          test -f schemas/zero-substrate-format.schema.json
+          test -f schemas/evidence-bundle.schema.json
+          test -f schemas/ingest-envelope.schema.json
+
+      - name: Basic HTML sanity
+        run: |
+          grep -qi "<html" index.html
+          grep -qi "Fieldglass" index.html
+
+      - name: Security boundary reminder
+        run: |
+          grep -qi "browser-local" SECURITY.md

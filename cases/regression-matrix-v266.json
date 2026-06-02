@@ -1,0 +1,31 @@
+{
+  "version": "V266_EVIDENCE_FLOW_REGRESSION_MATRIX",
+  "release": "V270_PUBLIC_RELEASE_PROVENANCE_LICENSE_LOCK",
+  "samples": [
+    "Stable Control",
+    "RB-1 Stable Human + Assistant Workflow",
+    "RB-2 Manager / Engineer Misalignment",
+    "RB-3 Tool Failure Retry Loop",
+    "RB-4 Multi-Agent Handoff Breakdown",
+    "RB-5 Observer Contradicts State",
+    "RB-6 Recovery After Human Intervention",
+    "RB-7 PM Scope Drift",
+    "RB-8 Long-Horizon Stable Coordination",
+    "CH-1 Echo-Time Runaway",
+    "Canonical Failure Nobody Saw"
+  ],
+  "pages": [
+    "Ingest",
+    "Runtime Evidence",
+    "Evidence State",
+    "Regime Map",
+    "Failure Timeline",
+    "Failure Boundary",
+    "Role Topology",
+    "Runtime Replay",
+    "Drift Evidence",
+    "Energetic Pressure",
+    "Noesis Evidence",
+    "Export"
+  ]
+}

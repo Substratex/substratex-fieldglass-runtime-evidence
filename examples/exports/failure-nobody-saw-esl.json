@@ -1,0 +1,13 @@
+{
+  "schema": "ESL-2.0",
+  "case": "EC-2026-CANONICAL-001",
+  "summary": "Example Evolution & Synthesis Layer artifact for the killer demo.",
+  "observables": [
+    "drift acceleration",
+    "role fragmentation",
+    "instability pressure",
+    "basin formation",
+    "observable failure"
+  ],
+  "boundary": "Example only. Use the instrument export for canonical evidence."
+}

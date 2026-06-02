@@ -1,0 +1,20 @@
+Engineer:
+Regression reproduced on the release branch.
+
+Tool:
+GitHub Actions completed. Status: success.
+
+Engineer:
+Unit tests passed, but integration behavior is inconsistent.
+
+Assistant:
+I will compare the failing path against the last stable commit.
+
+Tool:
+Diff generated. Two dependency changes detected.
+
+Engineer:
+The tool says success, but the workflow still fails manually.
+
+Observer:
+Monitoring blind spot: CI health does not match runtime reliability.

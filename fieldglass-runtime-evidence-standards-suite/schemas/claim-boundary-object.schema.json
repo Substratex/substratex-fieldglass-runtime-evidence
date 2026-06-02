@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClaimBoundaryObject",
+  "type": "object",
+  "required": [
+    "observable_only",
+    "prohibited_claims"
+  ],
+  "properties": {
+    "observable_only": {
+      "type": "boolean"
+    },
+    "prohibited_claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}
