@@ -1,47 +1,24 @@
-Fieldglass
-SubstrateX Fieldglass
-SubstrateX Runtime Evidence Observatory
-Runtime Evidence Observatory
-browser-local AI observatory
-AI runtime evidence
-runtime cognition
-cognitive cartography
-AI interaction log analysis
-AI runtime telemetry
-AI forensic instrumentation
-AI behavior observatory
-standalone HTML instrumentation suite
-local-first AI evidence tool
-browser-local instrumentation
-deterministic runtime evidence
-AI incident review
-AI failure analysis
-AI runtime replay
-runtime behavioral state
-runtime evidence export
-Evidence Commons
-Zero Substrate Format
-ZSF
-Evolution and Synthesis Layer
-ESL
-ELS
-Recursive Science
-SubstrateX
-ai-observability
-ai-evaluation
-runtime-telemetry
 runtime-evidence
+fieldglass
+evidencecommons
+ai-observability
+agent-observability
+runtime-telemetry
+runtime-replay
 ai-forensics
 agent-evaluation
-agent-observability
-ai-safety
-ai-incident-review
+runtime-analysis
+failure-analysis
+incident-review
 local-first
 browser-local
-html-instrument
+standalone-html
 deterministic-evidence
-runtime-replay
-failure timeline reconstruction
-role pressure analysis
-boundary formation
-basin exit
+runtime-regime-map
+behavioral-telemetry
+evidence-preservation
+runtime-governance
+ai-safety
+cognitive-cartography
+substratex
+recursive-science
