@@ -23,14 +23,13 @@ Permanent citation and lineage.
 Ingest
 → Runtime Evidence
 → Evidence State
-→ Regime Map
-→ Failure Timeline
+→ Runtime Map
+→ Formation Timeline
 → Failure Boundary
 → Role Topology
-→ Runtime Replay
-→ Drift Evidence
-→ Energetic Pressure
-→ Noesis Evidence
+→ Runtime Drift 
+→ Runtime Pressure
+→ Emergence Dynamics
 → Export
 ```
 
