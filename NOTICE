@@ -1,10 +1,151 @@
-Fieldglass® Runtime Evidence Observatory
-SubstrateX® Runtime Evidence Infrastructure
+# NOTICE
 
-Origin / Author: Arjay Asadi
-Framework: Recursive Science®
-Lineage: Recursive Science® → SubstrateX® → Fieldglass® → RuntimeEvidence.com → EvidenceCommons®
-License: SubstrateX Public Research and Accountability License v1.0
-Citation: Asadi, Arjay. Recursive Science® → SubstrateX® → Fieldglass® Runtime Evidence Observatory → EvidenceCommons®.
+## Fieldglass® Runtime Evidence Observatory
 
-No removal of provenance, origin, citation, trademark, license, or lineage markers is permitted.
+**Runtime Evidence™ Public Instrument**
+**Infrastructure:** SubstrateX® Runtime Evidence Infrastructure
+**Scientific Framework:** Recursive Science®
+**Evidence Layer:** EvidenceCommons®
+**Origin / Author:** Arjay Asadi
+
+---
+
+## Canonical Lineage
+
+```txt
+Recursive Science®
+→ SubstrateX®
+→ Runtime Evidence™
+→ Fieldglass® Runtime Evidence Observatory
+→ RuntimeEvidence.com
+→ EvidenceCommons®
+```
+
+This repository forms part of the Runtime Evidence™ ecosystem and associated Runtime Evidence Standards Suite.
+
+---
+
+## Origin and Provenance
+
+Fieldglass® was created as part of the Recursive Science® and SubstrateX® research and instrumentation program.
+
+The Runtime Evidence™ architecture, Fieldglass® observatory, EvidenceCommons® preservation layer, associated standards, schemas, governance documents, publication series, and evidence artifacts originate from this lineage unless explicitly stated otherwise.
+
+---
+
+## Citation
+
+Recommended citation:
+
+```txt
+Asadi, Arjay.
+
+Recursive Science®
+→ SubstrateX®
+→ Runtime Evidence™
+→ Fieldglass® Runtime Evidence Observatory
+→ EvidenceCommons®
+```
+
+See:
+
+```txt
+CITATION.cff
+```
+
+for repository citation metadata.
+
+---
+
+## Repository Scope
+
+This repository may include:
+
+* Runtime Evidence™ instrumentation
+* Fieldglass® public releases
+* Runtime Evidence Standards Suite
+* EvidenceCommons® specifications
+* Schemas and object models
+* RFCs
+* Publications
+* Example evidence bundles
+* Reference implementations
+* Research artifacts
+
+---
+
+## Attribution Requirement
+
+Attribution and provenance notices must be preserved in all redistributed copies of this repository and in derivative works that substantially reproduce repository materials.
+
+Attribution must not be removed from:
+
+* NOTICE
+* LICENSE
+* CITATION.cff
+* Provenance manifests
+* Export artifacts
+* Documentation
+* Standards publications
+* Schema packages
+
+where such notices are present.
+
+---
+
+## Trademarks and Terminology
+
+The following names are used within this repository and associated publications:
+
+* Recursive Science®
+* SubstrateX®
+* Runtime Evidence™
+* Fieldglass®
+* Fieldglass® Runtime Evidence Observatory
+* EvidenceCommons®
+
+See:
+
+```txt
+TRADEMARKS.md
+```
+
+for terminology, trademark, lineage, and canonical-status guidance.
+
+---
+
+## Canonical Status
+
+Publication of source code, standards, schemas, examples, or documentation does not grant authority to represent modified systems as official, canonical, certified, or endorsed Runtime Evidence™ implementations.
+
+Independent implementations may exist.
+
+Canonical lineage, certification, and origin remain separate from implementation compatibility.
+
+---
+
+## Preservation of Provenance
+
+No removal, concealment, falsification, or misrepresentation of provenance, origin, citation, trademark, license, lineage, standards authorship, or evidence identity information is permitted where such information is included.
+
+---
+
+## Claim Boundary
+
+Fieldglass® computes observable runtime evidence from supplied interaction logs and transcripts.
+
+Nothing in this repository should be interpreted as a claim of:
+
+* Hidden-state access
+* Consciousness detection
+* Intent inference
+* Personality diagnosis
+* Truth adjudication
+* Root-cause certainty
+* Automated deployment authority
+
+All outputs remain subject to the published Runtime Evidence™ claim boundaries.
+
+---
+
+**Runtime behavior becomes evidence.**

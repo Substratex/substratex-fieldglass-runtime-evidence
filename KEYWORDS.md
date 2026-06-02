@@ -1,294 +1,356 @@
 # Repository Keywords and Search Terms
 
-This file provides repository keywords, SEO phrases, GitHub topics, and search language for the standalone Fieldglass® public instrumentation suite.
+This document defines canonical repository keywords, GitHub topics, search phrases, metadata language, SEO descriptions, and public discovery terminology for the Runtime Evidence™ ecosystem.
 
-## Primary Repository Keywords
+The hierarchy is:
 
-- Fieldglass
-- SubstrateX Fieldglass
-- SubstrateX Runtime Evidence Observatory
-- Runtime Evidence Observatory
-- browser-local AI observatory
-- AI runtime evidence
-- runtime cognition
-- cognitive cartography
-- AI interaction log analysis
-- AI runtime telemetry
-- AI forensic instrumentation
-- AI behavior observatory
-- standalone HTML instrumentation suite
-- local-first AI evidence tool
-- browser-local instrumentation
-- deterministic runtime evidence
-- AI incident review
-- AI failure analysis
-- AI runtime replay
-- runtime behavioral state
-- runtime evidence export
-- Evidence Commons
-- Zero Substrate Format
-- ZSF
-- Evolution and Synthesis Layer
-- ESL
-- ELS
-- Recursive Science
-- SubstrateX
+```txt
+Runtime Evidence™
+    ↓
+Fieldglass®
+    ↓
+EvidenceCommons®
+    ↓
+SubstrateX®
+    ↓
+Recursive Science®
+```
 
-## GitHub Repository Topics
+Fieldglass® is the public Runtime Evidence™ instrument.
+
+EvidenceCommons® is the preservation, replay, challenge, and provenance layer.
+
+RuntimeEvidence.com is the public category and standards hub.
+
+---
+
+# Primary Repository Keywords
+
+## Core Platform
+
+* Runtime Evidence™
+* Runtime Evidence Observatory
+* Runtime Evidence Platform
+* Runtime Evidence Infrastructure
+* Runtime Evidence Standards
+* Runtime Evidence Standards Suite
+* Runtime Evidence Canon
+* RuntimeEvidence.com
+* Fieldglass®
+* Fieldglass Observatory
+* Fieldglass Runtime Evidence Observatory
+* SubstrateX Fieldglass
+* SubstrateX Runtime Evidence Observatory
+* EvidenceCommons®
+* Evidence Commons
+
+## Runtime Evidence
+
+* AI runtime evidence
+* runtime evidence generation
+* runtime evidence reconstruction
+* runtime evidence telemetry
+* runtime evidence analysis
+* runtime evidence replay
+* runtime evidence preservation
+* runtime evidence investigation
+* runtime evidence lifecycle
+* runtime evidence export
+* runtime evidence artifact
+* runtime evidence bundle
+* runtime evidence schema
+* runtime evidence governance
+
+## Runtime Observability
+
+* AI observability
+* agent observability
+* runtime observability
+* interaction observability
+* behavior observability
+* runtime telemetry
+* runtime diagnostics
+* runtime analytics
+* runtime inspection
+* runtime reconstruction
+* runtime monitoring
+* runtime audit trail
+
+## Runtime Failure Sciences
+
+* failure formation analysis
+* failure timeline reconstruction
+* runtime replay
+* boundary formation
+* boundary pressure
+* boundary crossing
+* failure boundary
+* runtime drift
+* runtime pressure
+* runtime instability
+* runtime continuity
+* regime analysis
+* regime transition
+* runtime regime map
+* basin exit
+* attractor basin
+* behavioral state analysis
+* role topology
+* role pressure analysis
+* handoff analysis
+* coordination analysis
+
+## EvidenceCommons®
+
+* evidence preservation
+* evidence provenance
+* evidence lineage
+* evidence identity
+* evidence challenge
+* evidence reproducibility
+* evidence replay
+* evidence governance
+* evidence bundle
+* evidence manifest
+* evidence archive
+* evidence certification
+* casefile preservation
+* casefile review
+
+## Technical
+
+* browser-local AI observatory
+* browser-local instrumentation
+* browser-local evidence generation
+* browser-local observability
+* local-first AI
+* local-first observability
+* standalone HTML instrumentation suite
+* standalone HTML observatory
+* client-side execution
+* deterministic runtime evidence
+* deterministic replay
+* privacy-first AI tooling
+* offline-capable instrumentation
+
+## SubstrateX® and Recursive Science®
+
+* SubstrateX®
+* Recursive Science®
+* cognitive cartography
+* runtime cartography
+* behavioral cartography
+* runtime cognition
+* recursive instrumentation
+* recursive telemetry
+* observable runtime systems
+* interaction dynamics
+* operational cognition
+
+---
+
+# GitHub Repository Topics
 
 Recommended GitHub topics:
 
 ```txt
-ai-observability
-ai-evaluation
-runtime-telemetry
 runtime-evidence
+fieldglass
+evidencecommons
+ai-observability
+agent-observability
+runtime-telemetry
+runtime-replay
+runtime-analysis
 ai-forensics
 agent-evaluation
-agent-observability
 ai-safety
-ai-incident-review
+incident-review
+failure-analysis
 local-first
 browser-local
-html-instrument
+standalone-html
 deterministic-evidence
-cognitive-cartography
-evidence-commons
+runtime-governance
 substratex
-fieldglass
-zsf
-esl
-runtime-replay
+recursive-science
 ```
 
-## Short SEO Description
+---
 
-Fieldglass® is a standalone, browser-local runtime cognition observatory by SubstrateX for transforming AI interaction logs, operational traces, and multi-agent transcripts into deterministic runtime evidence, replayable telemetry, failure timelines, boundary formation signals, role pressure, and exportable evidence bundles.
-
-## Long SEO Description
-
-Fieldglass® is a standalone HTML instrumentation suite for AI runtime evidence. It runs locally in the browser and converts pasted or uploaded AI interaction logs into deterministic runtime telemetry, runtime behavioral state, failure timeline reconstruction, role and tool pressure analysis, basin or boundary formation signals, replayable evidence, and exportable artifacts such as Zero Substrate Format, Evolution and Synthesis Layer outputs, human reports, and Evidence Commons bundles.
-
-The public release is designed for research, accountability, incident review, evaluation, and operational analysis. It does not require login, upload, network submission, or backend infrastructure.
-
-## Search Phrases
-
-Use these phrases in README, release notes, GitHub descriptions, documentation, and external references where accurate:
-
-- browser-local AI runtime observatory
-- standalone HTML AI evidence instrument
-- AI interaction log telemetry tool
-- deterministic AI runtime evidence
-- AI runtime forensic analysis
-- AI failure timeline reconstruction
-- AI agent runtime replay
-- multi-agent transcript analysis
-- observable AI behavior evidence
-- local-first AI observability tool
-- AI incident review instrumentation
-- runtime behavioral state dashboard
-- AI role and tool pressure analysis
-- AI basin exit and boundary formation
-- Zero Substrate Format export
-- Evidence Commons export bundle
-- SubstrateX Fieldglass public instrument
-- Cognitive Cartography for AI runtime evidence
-
-## Audience Keywords
-
-### AI Researchers
-
-- AI runtime dynamics
-- agent behavior analysis
-- model interaction trajectories
-- runtime failure formation
-- observable AI evidence
-- post-run telemetry
-- transcript-derived evidence
-- evaluation beyond benchmarks
-
-### AI Safety and Governance
-
-- AI accountability evidence
-- incident evidence bundle
-- AI audit trail
-- observable-only AI analysis
-- no hidden-state claims
-- AI deployment risk review
-- AI failure reconstruction
-- runtime trust analysis
-
-### Engineers and Operators
-
-- operational log ingestion
-- GitHub CI log analysis
-- SIEM incident transcript analysis
-- cloud infrastructure incident review
-- Jira workflow coordination analysis
-- support incident analysis
-- agent workflow replay
-- browser-local evidence export
-
-### Product / Executive Readers
-
-- AI reliability instrumentation
-- AI runtime risk visibility
-- failure before visible failure
-- deployment risk evidence
-- runtime trust evidence
-- operational cost-pressure proxy
-- evidence-ready AI review
-
-## Documentation Keywords by Page
-
-### `docs/overview.md`
-
-- Fieldglass overview
-- runtime cognition observatory
-- browser-local evidence instrument
-- public AI runtime evidence
-
-### `docs/quickstart.md`
-
-- run Fieldglass locally
-- open index.html
-- no server required
-- no upload required
-
-### `docs/supported-ingestion-formats.md`
-
-- supported ingestion formats
-- Fieldglass transcript format
-- GitHub CI logs
-- SIEM security incident logs
-- cloud infrastructure logs
-- Jira workflow logs
-- support incident logs
-
-### `docs/killer-demo.md`
-
-- The Failure Nobody Saw
-- killer demo
-- silent degradation
-- benchmark success monitoring healthy Fieldglass warning
-- observable failure
-
-### `docs/validation-lab.md`
-
-- validation lab
-- monitoring blind spots
-- workflow coordination
-- software engineering validation
-- security and SIEM validation
-- cloud infrastructure validation
-- attention engine
-- determinism validation
-
-### `docs/claim-boundaries.md`
-
-- claim boundaries
-- observable-only evidence
-- no hidden-state access
-- no consciousness detection
-- no intent inference
-- no truth adjudication
-- no provider telemetry unless supplied
-
-### `docs/evidence-exports.md`
-
-- evidence exports
-- Zero Substrate Format
-- Evolution and Synthesis Layer
-- Evidence Commons bundle
-- human report
-- technical appendix
-
-### `docs/troubleshooting.md`
-
-- browser-local troubleshooting
-- loading local HTML
-- transcript validation error
-- supported roles
-- ingestion preflight
-
-## README Keyword Block
-
-Suggested README keywords section:
-
-```md
-## Keywords
-
-Fieldglass, SubstrateX, Runtime Evidence Observatory, browser-local AI observability, AI runtime evidence, cognitive cartography, AI interaction log analysis, deterministic telemetry, runtime replay, AI forensic instrumentation, Evidence Commons, Zero Substrate Format, ZSF, Evolution and Synthesis Layer, ESL, AI incident review, local-first AI evidence tool.
-```
-
-## GitHub About Description
-
-Recommended GitHub repo description:
+# GitHub About Description
 
 ```txt
-Standalone browser-local AI runtime evidence instrument for log ingestion, telemetry, replay, failure timeline reconstruction, and exportable Evidence Commons / ZSF artifacts.
+Fieldglass® Runtime Evidence Observatory — browser-local AI runtime evidence instrumentation for telemetry, replay, failure formation analysis, runtime observability, and EvidenceCommons® export.
 ```
 
-## Social / Search Snippets
-
-### Short
+Alternative:
 
 ```txt
-Fieldglass® turns AI interaction logs into browser-local runtime evidence: telemetry, replay, failure timelines, role pressure, and exportable evidence bundles.
+Runtime Evidence™ observatory for AI interaction logs. Browser-local telemetry, replay, failure analysis, runtime investigation, and EvidenceCommons® preservation.
 ```
 
-### Medium
+---
+
+# Short SEO Description
+
+Fieldglass® is the first Runtime Evidence™ observatory for AI interaction systems. It transforms transcripts, operational logs, and agent workflows into observable runtime evidence, replayable telemetry, failure formation timelines, runtime pressure analysis, role topology, and EvidenceCommons® preservation artifacts.
+
+---
+
+# Long SEO Description
+
+Fieldglass® is a browser-local Runtime Evidence™ platform for AI interaction systems.
+
+It converts pasted or uploaded interaction logs, operational traces, and agent workflows into observable runtime evidence including:
+
+* Runtime Regime Maps
+* Failure Formation Timelines
+* Failure Boundary Analysis
+* Role Topology Analysis
+* Runtime Drift Analysis
+* Runtime Pressure Analysis
+* Emergence Evidence
+* Runtime Replay
+* Evidence Packages
+
+Fieldglass® executes locally within the browser and generates deterministic evidence artifacts, replayable telemetry, and EvidenceCommons®-compatible exports without requiring server infrastructure, mandatory accounts, or transcript uploads.
+
+The public release is intended for research, accountability, audit, safety review, incident analysis, operational investigation, and Runtime Evidence experimentation.
+
+---
+
+# Search Phrases
+
+Use where accurate:
+
+* runtime behavior becomes evidence
+* browser-local AI runtime observatory
+* Runtime Evidence platform
+* Runtime Evidence observatory
+* observable AI runtime analysis
+* deterministic AI runtime evidence
+* runtime evidence reconstruction
+* runtime replay and reconstruction
+* failure before visible failure
+* AI runtime investigation
+* runtime telemetry and replay
+* evidence-based AI incident review
+* runtime failure formation analysis
+* role topology and coordination analysis
+* runtime pressure and instability detection
+* evidence-ready AI analysis
+* replayable runtime evidence
+* browser-local AI observability
+* EvidenceCommons preservation
+* Runtime Evidence standards
+
+---
+
+# Audience Keywords
+
+## AI Researchers
+
+* AI runtime dynamics
+* agent behavior analysis
+* interaction trajectory analysis
+* runtime failure formation
+* observable AI evidence
+* transcript-derived evidence
+* post-run telemetry
+* evaluation beyond benchmarks
+* runtime observability
+
+## AI Safety and Governance
+
+* AI accountability evidence
+* runtime trust analysis
+* incident evidence bundle
+* observable-only AI analysis
+* AI audit trail
+* deployment risk review
+* runtime failure reconstruction
+* evidence governance
+* evidence reproducibility
+
+## Engineers and Operators
+
+* operational log ingestion
+* workflow replay
+* support incident analysis
+* browser-local evidence export
+* cloud incident review
+* SIEM transcript analysis
+* coordination analysis
+* operational replay
+
+## Product and Executive Readers
+
+* AI reliability instrumentation
+* runtime risk visibility
+* deployment risk evidence
+* failure before visible failure
+* runtime trust evidence
+* evidence-ready review
+* operational cost pressure
+
+---
+
+# Canonical Hashtags
 
 ```txt
-SubstrateX Fieldglass® is a standalone HTML runtime cognition observatory for AI interaction logs. It runs locally in the browser and generates deterministic telemetry, replayable runtime evidence, failure timeline reconstruction, and export bundles.
+#RuntimeEvidence
+#Fieldglass
+#EvidenceCommons
+#AIRuntimeEvidence
+#AIObservability
+#RuntimeTelemetry
+#RuntimeReplay
+#AIForensics
+#AIEvaluation
+#AISafety
+#SubstrateX
+#RecursiveScience
 ```
 
-### Technical
+---
 
-```txt
-Fieldglass® is a browser-local post-run instrumentation suite for observable AI runtime evidence. It supports transcript ingestion, operational-log adaptation, runtime behavioral state computation, role/tool pressure analysis, failure boundary detection, replay, and ZSF / ESL / Evidence Commons export.
-```
+# Claim-Safe Language
 
-## Claim-Safe Keyword Notes
+The following terms are appropriate within the published claim boundaries:
 
-Use these terms carefully and only within observable-evidence boundaries:
-
-- runtime evidence
-- runtime telemetry
-- behavioral state
-- failure timeline
-- operational pressure
-- role fragmentation
-- boundary formation
-- basin exit
-- replayable evidence
-- deterministic export
+* runtime evidence
+* runtime telemetry
+* runtime replay
+* behavioral state
+* failure timeline
+* role topology
+* operational pressure
+* runtime pressure
+* boundary formation
+* basin exit
+* replayable evidence
+* deterministic export
 
 Avoid implying:
 
-- hidden-state access
-- consciousness detection
-- provider-internal telemetry
-- truth adjudication
-- intent inference
-- blame assignment
-- real-time steering in the public release
+* hidden-state access
+* consciousness detection
+* intent inference
+* truth adjudication
+* provider-internal telemetry
+* blame assignment
+* autonomous deployment authority
+* real-time steering within the public release
 
-## Canonical Hashtags
+---
 
-Useful for public posts:
+# Canonical Positioning Statement
 
 ```txt
-#Fieldglass
-#SubstrateX
-#AIRuntimeEvidence
-#AIObservability
-#AIEvaluation
-#AIForensics
-#CognitiveCartography
-#RuntimeTelemetry
-#EvidenceCommons
-#LocalFirstAI
-#AISafety
-#AgentEvaluation
+Fieldglass® is the first public Runtime Evidence™ observatory.
+
+It transforms AI interaction logs into observable, replayable, challengeable, and preservable runtime evidence.
+
+Runtime behavior becomes evidence.
 ```
